@@ -11,8 +11,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div>
-        <h2>My first Apollo app</h2>
-        <QueryFirstQuery></QueryFirstQuery>
+        <h2 className="bg-black text-red-400">My first Apollo app</h2>
+        <QueryFirstQuery />
       </div>
     </ApolloProvider>
   );
